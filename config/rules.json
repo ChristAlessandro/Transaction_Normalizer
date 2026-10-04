@@ -1,0 +1,41 @@
+{
+    "supported_currencies": [
+        "USD",
+        "EUR"
+    ],
+    "status_mapping": {
+        "completed": "SUCCESS",
+        "success": "SUCCESS",
+        "ok": "SUCCESS",
+        "failed": "FAILED",
+        "error": "FAILED",
+        "pending": "PENDING"
+    },
+    "date_formats": [
+        "%Y-%m-%d %H:%M:%S",
+        "%d/%m/%Y %H:%M",
+        "%Y-%m-%dT%H:%M:%SZ"
+    ],
+    "source_formats": {
+        "source_1": [
+            "id",
+            "amount",
+            "currency",
+            "timestamp",
+            "status"
+        ],
+        "source_2": [
+            "transaction_id",
+            "total",
+            "currency_code",
+            "created_at",
+            "state"
+        ],
+        "source_3": [
+            "ref",
+            "amount",
+            "date",
+            "result"
+        ]
+    }
+}

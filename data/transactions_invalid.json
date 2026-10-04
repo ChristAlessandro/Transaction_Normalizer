@@ -1,0 +1,49 @@
+[
+    {
+        "id": "tx_101",
+        "amount": "50.00",
+        "currency": "GBP",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+    },
+    {
+        "id": "tx_102",
+        "amount": "abc",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+    },
+    {
+        "transaction_id": 303,
+        "total": 5000,
+        "currency_code": "USD",
+        "created_at": "31/02/2025 14:22",
+        "state": "OK"
+    },
+    {
+        "ref": "A-99",
+        "amount": "€80,50",
+        "date": "2025-03-10T14:22:00Z",
+        "result": "unknown"
+    },
+    {
+        "id": "tx_104",
+        "amount": "75.00",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00"
+    },
+    {
+        "transaction_id": 305,
+        "total": 2500,
+        "currency_code": "USD",
+        "created_at": "10/03/2025 14:22",
+        "state": "failed"
+    },
+    {
+        "unknown_id": "XYZ-001",
+        "value": "100.00",
+        "money": "USD",
+        "date_created": "2025-03-10",
+        "result": "success"
+    }
+]

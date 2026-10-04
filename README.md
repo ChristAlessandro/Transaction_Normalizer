@@ -1,6 +1,3 @@
-Sí, ahora entendí. **Un único bloque completo**, sin separarlo en partes. Copia desde `# Transaction Normalizer` hasta el final y pégalo directamente en `README.md`.
-
-````markdown
 # Transaction Normalizer
 
 Sistema desarrollado en Python para normalizar y explorar transacciones provenientes de diferentes fuentes con estructuras heterogéneas.

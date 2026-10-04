@@ -9,6 +9,8 @@ from validator import validar_transaccion
 
 from metrics import calcular_metricas
 
+from cli import iniciar_cli
+
 
 RUTA_REGLAS = "config/rules.json"
 RUTA_DATOS_VALIDOS = "data/transactions_valid.json"
@@ -152,6 +154,11 @@ def main():
     )
 
     mostrar_resultado(
+        validas,
+        invalidas
+    )   
+
+    iniciar_cli(
         validas,
         invalidas
     )

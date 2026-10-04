@@ -1,3 +1,23 @@
+# Transaction Normalizer
+
+Sistema desarrollado en Python para normalizar y explorar transacciones provenientes de diferentes fuentes con estructuras heterogéneas.
+
+El proyecto identifica el formato de origen de cada transacción, transforma los datos a un modelo común, valida la información y genera métricas para su exploración mediante una interfaz CLI.
+
+## Objetivo
+
+Procesar transacciones provenientes de diferentes fuentes y convertirlas a una estructura normalizada:
+
+```json
+{
+    "id": "string",
+    "amount": 99.99,
+    "currency": "USD",
+    "timestamp": "2025-03-10T14:22:00Z",
+    "status": "SUCCESS",
+    "source": "source_1"
+}
+
 Tecnologías
 Python 3
 pytest
